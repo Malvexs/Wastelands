@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_weapon_melee",
   "spriteId": {
-    "name": "spr_Melee",
-    "path": "sprites/spr_Melee/spr_Melee.yy",
+    "name": "spr_meleeExemplo",
+    "path": "sprites/spr_meleeExemplo/spr_meleeExemplo.yy",
   },
   "solid": false,
   "visible": true,
