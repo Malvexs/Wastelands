@@ -6,7 +6,7 @@
     {"id":{"name":"obj_weapon_parent","path":"objects/obj_weapon_parent/obj_weapon_parent.yy",},"order":3,},
     {"id":{"name":"spr_jogador","path":"sprites/spr_jogador/spr_jogador.yy",},"order":0,},
     {"id":{"name":"spr_fireball","path":"sprites/spr_fireball/spr_fireball.yy",},"order":1,},
-    {"id":{"name":"spr_melee","path":"sprites/spr_melee/spr_melee.yy",},"order":2,},
+    {"id":{"name":"spr_Melee","path":"sprites/spr_Melee/spr_Melee.yy",},"order":2,},
     {"id":{"name":"obj_weapon_fireball","path":"objects/obj_weapon_fireball/obj_weapon_fireball.yy",},"order":1,},
     {"id":{"name":"spr_whiteenemy_01","path":"sprites/spr_whiteenemy_01/spr_whiteenemy_01.yy",},"order":2,},
     {"id":{"name":"obj_weapon_axe","path":"objects/obj_weapon_axe/obj_weapon_axe.yy",},"order":0,},
