@@ -1,7 +1,6 @@
-#region variaveis movimentacao
-//andar
-
-walkspeed = 2;
+#region variaveis de movimentacao
+//andar, velocidade = 2
+walkspeed = 2; 
 
 #endregion
 
