@@ -54,6 +54,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Objects","folderPath":"folders/Objects.yy","order":8,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"characters","folderPath":"folders/Objects/characters.yy","order":1,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"enemies","folderPath":"folders/Objects/enemies.yy","order":2,},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Menu","folderPath":"folders/Objects/Menu.yy","order":4,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"others","folderPath":"folders/Objects/others.yy","order":3,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"weapons","folderPath":"folders/Objects/weapons.yy","order":0,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Paths","folderPath":"folders/Paths.yy","order":3,},
@@ -65,12 +66,11 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sprites","folderPath":"folders/Sprites.yy","order":0,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"characters","folderPath":"folders/Sprites/characters.yy","order":5,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"enemies","folderPath":"folders/Sprites/enemies.yy","order":6,},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Menu","folderPath":"folders/Sprites/Menu.yy","order":7,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"others","folderPath":"folders/Sprites/others.yy","order":8,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"weapon","folderPath":"folders/Sprites/weapon.yy","order":4,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy","order":1,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy","order":7,},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Menu","folderPath":"folders/Objects/Menu.yy","order":4,},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Menu","folderPath":"folders/Sprites/Menu.yy","order":7,},
   ],
   "AudioGroups": [
     {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"audiogroup_default","targets":-1,},
@@ -80,6 +80,6 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2022.11.1.56",
+    "IDEVersion": "2022.0.0.19",
   },
 }
