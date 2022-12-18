@@ -1,8 +1,9 @@
-#region variaveis movimentacao
-//andar
+//<<<<<<< HEAD
+#region variaveis de movimentacao
+//andar, velocidade = 2
+walkspeed = 2; 
 
-walkspeed = 2;
-//teste
+//>>>>>>> acb4ac3234b54f41ff86162396d7a494c75c27ad
 #endregion
 
 #region intervalo dos atks
@@ -34,11 +35,11 @@ slot[3] = "faca"
 global.powers = [
 	["Bola de fogo","Lança bolas fogo", spr_fireball, 0, 5], 
 	["Machado","Atira machados", spr_axe, 0, 5], 
-	["Murasame","Hit kill. Ataque lento", spr_melee, 0, 5],
+	["Murasame","Hit kill. Ataque lento", spr_meleeExemplo, 0, 5],
 	["Bola de gelo", "Dano e atrasa os inimigos", spr_fireball, 0, 5],
 	["power 4","power 4 info", spr_axe, 0, 5],
 	["power 5","power 5 info", spr_fireball, 0, 5],
-	["power 6","power 6 info", spr_melee, 0, 6],
+	["power 6","power 6 info", spr_meleeExemplo, 0, 6],
 	["power 7","power 7 info", spr_fireball, 0,3]  
 		]
 array_push(global.powers, ["Power 8","P8", spr_fireball, 0,5])
