@@ -12,7 +12,8 @@ if(xp >= maxXP){ //Se o número de xp for maior ou igual a quantidade de xp nece
 
 
 if hp<=0{ //Se a vida for menor ou igual a 0 game over
-game_over = true;
-hp = 0;
+	//game_over = true;
+	//hp = 0
+	hp += 40;
 }
 
