@@ -9,7 +9,7 @@ if(global.powers[1][3] > 0){ //Se a flag tiver ativa o poder é acionado
 		//poder no nivel 1
 		case 1: //caso o lvl seja 1 então...
 			
-			axe_dmg += 0.2
+			axe_dmg += 0.5
 			alarmtime[1] -= 5
 			//add outros atributos, vel e tals...
 			//ex: axe_vel = 10
