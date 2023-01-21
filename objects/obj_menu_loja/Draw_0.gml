@@ -79,7 +79,11 @@ if !surface_exists(paused_surf) {
 		
 		//Desenhando os poderes selecionados
 		draw_sprite_ext(esclhd_Sprite, 0, wgui-125, hgui-80+ bg_opcao_space*i, poderes_width/sprite_width, poderes_height/sprite_height, 0, c_white,1)
-			
+		
+		//Desenhando a seta (esquerda) apontada pro item selecionado
+		draw_sprite_ext(spr_seta, image_index,wgui-220,hgui-102 + bg_opcao_space*i, setas_width/sprite_width, setas_height/sprite_height, 0, c_white,1)
+		//Desenhando a seta (direita) apontada pro item selecionado
+		draw_sprite_ext(spr_seta, image_index,wgui+233,hgui-61 + bg_opcao_space*i, setas_width/sprite_width, setas_height/sprite_height, 180, c_white,1)
 			if(mouse_check_button(mb_left)){
 				
 				//Adicionando items ao iventário

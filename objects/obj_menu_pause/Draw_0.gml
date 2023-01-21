@@ -50,7 +50,7 @@ if !surface_exists(paused_surf) {
 				
 				//Desenhando o indicador de selencionado (Esquerda)
 				draw_sprite_ext(spr_selecionado, 0,wgui-140,hgui+80 + bg_opcao_space*i, selecionado_width/sprite_width, selecionado_height/sprite_height, 0, c_white,1)
-				//Desenhando o indicador de selencionado (Esquerda)
+				//Desenhando o indicador de selencionado (Direita)
 				draw_sprite_ext(spr_selecionado, 0,wgui+155,hgui+80 + bg_opcao_space*i, selecionado_width/sprite_width, selecionado_height/sprite_height, 0, c_white,1) 
 			
 				if(mouse_check_button(mb_left)){

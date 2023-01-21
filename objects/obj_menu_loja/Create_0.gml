@@ -22,6 +22,10 @@ bg_poderes_height = 82 //Altura da sprite de fundo dos poderes
 poderes_width = 30 //Largura da sprite dos poderes
 poderes_height = 30 //Altura da sprite dos poderes
 
+//Setas
+setas_width = 40 //Largura da sprite da seta
+setas_height = 40 //Altura da sprite da seta
+
 screenShot = sprite_create_from_surface(application_surface,view_xview[0],view_yview[0],view_wview[0],view_hview[0],0,0,0,0)   
 	
 global.chosen_ones = []
