@@ -12,21 +12,31 @@ if !surface_exists(paused_surf) {
 	
 	draw_set_valign(fa_top); //Alinhamento vertical das letras (em cima)
     draw_set_halign(fa_left); //Alinhamento horizontal das letras (a esquerda)
+	draw_set_color(c_black) //Setando a cor da fonte para preto
 	
 	wgui = camera_get_view_x(view_camera[0]) + display_get_gui_width()/2
 	hgui = camera_get_view_y(view_camera[0]) + display_get_gui_height()/2 
+	
 	//Pegando o último frame do jogo
 	draw_sprite(screenShot,0,camera_get_view_x(view_camera[0]), camera_get_view_y(view_camera[0]))
-    //Desenhando o background do menu
+    
+	/* Desenhar o fundo escuro
+	draw_set_alpha(0.7);
+    draw_rectangle(0, 0, wgui*2, hgui*2, 0)
+	*/
+	
+	//Desenhando o background do menu
 	draw_sprite_ext(sprite_index, image_index, wgui-200, hgui-225,menu_width/sprite_width, menu_height/sprite_height, 0, c_white,1)
-   
-   
+        
 	draw_set_font(f_tn)  //Setando a fonte que sera utilizada pra escrever as opções
-	draw_set_color(c_black) //Setando a cor da fonte para preto
+	
 	msg = "Suba de nível" //Desenha o título do menu
 	draw_text_transformed(wgui-75, hgui-175, msg, 1.5,1.5,image_angle)
     
-   
+	//draw_sprite_ext(spr_xp_hud, 0, +5, +4, 8.6, 0.8, 0, c_white, 1); 
+    draw_sprite_ext(spr_xp_hud, image_index, wgui-550, hgui-367, 8.6, 0.8, 0, c_white,1)//desenha a hud do xp
+	draw_sprite_ext(spr_xp_hud_full, 0, wgui-547, hgui-363.5, 8.97, 0.8, 0, c_white,1)//desenhando a hud do xp inteiro
+	
 	for(var i = 0; i < poderes_escolhidos;i++){	
 		
 		var esclhd_Nome = global.chosen_ones[i][0];
@@ -129,6 +139,7 @@ if !surface_exists(paused_surf) {
 	draw_set_halign(-1)
 	draw_set_font(-1)
 	draw_set_color(noone)
+    draw_set_alpha(-1);
     }
 	
 }

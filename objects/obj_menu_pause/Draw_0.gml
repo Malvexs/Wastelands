@@ -24,6 +24,12 @@ if !surface_exists(paused_surf) {
 		draw_sprite(screenShot,0,camera_get_view_x(view_camera[0]), camera_get_view_y(view_camera[0]))
 		
 		draw_set_color(c_black); //Setando uma cor pra ser utilizada (Preto)
+		
+		/* Desenhar o fundo escuro
+		draw_set_alpha(0.7);
+		draw_rectangle(0, 0, wgui*2, hgui*2, 0)
+		*/
+	    
 		/*draw_set_alpha(.7); //Opacidade do fundo
 		draw_rectangle(0,0,w_gui,h_gui,false); //Desenhando um retangulo de fundo quando pausado o jogo
 		draw_set_alpha(1);//Resetando a opacidade */
@@ -87,5 +93,6 @@ if !surface_exists(paused_surf) {
 		draw_set_halign(-1); //Resetando alinhamento horizontal
 		draw_set_font(-1); //Resetando a font
 		draw_set_color(c_white);//Resetando a cor
+		draw_set_alpha(-1);
 	}
 }
