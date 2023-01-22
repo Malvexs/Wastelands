@@ -1,17 +1,12 @@
 /// @description Insert description here
 // You can write your code in this editor
+event_inherited();
 
-boss_hp = 3000;
+boss_hp = 350;
 
 spr = spr_boss_3;
 sprW = spr_boss_3W;
 
-alarmtime[1] = 120;
+alarm_atk[1] = 120;
 
-alarm[1] = alarmtime[1];
-
-alarmtime[2] = 240;
-
-alarm[2] = alarmtime[2];
-
-xx = 0
+alarm[1] = alarm_atk[1];

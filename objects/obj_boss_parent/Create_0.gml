@@ -3,7 +3,6 @@
 
 estado = scr_boss_escolher_ataque;
 
-
 ataque_boss = 3;
 ataque2_boss = 2;
 

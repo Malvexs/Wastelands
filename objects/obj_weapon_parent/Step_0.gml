@@ -3,7 +3,7 @@
 var _list = ds_list_create();
 var _num = collision_rectangle_list(bbox_left, bbox_top, bbox_right, bbox_bottom, obj_enemy_parent, false, true, _list, false);
 
-if _num > 0
+if (_num > 0) && (obj_jogador.weapon_cooldown[4] > 0)
 {
 	
     for (var i = 0; i < _num; ++i;)
@@ -21,7 +21,15 @@ if _num > 0
 			_list[| i].sprite_index = _list[| i].sprW;
 					
 				//dano sofrido
-				_list[| i].inimigo_hp -= dmg; 				
+				_list[| i].inimigo_hp -= dmg;
+				
+				obj_jogador.weapon_cooldown[4] -= 1;
+				
+				if obj_jogador.weapon_cooldown[4] == 0
+				{
+					instance_destroy();
+					obj_jogador.weapon_cooldown[4] = 2;
+				}
 			
 				
 			if(_list[| i].inimigo_hp <= 0)
@@ -43,13 +51,12 @@ var _list = ds_list_create();
 var _num = collision_rectangle_list(bbox_left, bbox_top, bbox_right, bbox_bottom, obj_boss_parent, false, true, _list, false);
 
 
-if _num > 0
+if (_num > 0) && (obj_jogador.weapon_cooldown[4] > 0)
 {
     for (var i = 0; i < _num; ++i;)
     {
 		if(_list[| i].sprite_index == _list[| i].spr)
 		{
-
 			
 			//knockback							
 			var dir = point_direction(x,y, _list[| i].x, _list[| i].y);
@@ -61,6 +68,14 @@ if _num > 0
 					
 				//dano sofrido
 				_list[| i].boss_hp -= dmg; 	
+				
+				obj_jogador.weapon_cooldown[4] -= 1;
+				
+				if obj_jogador.weapon_cooldown[4] == 0
+				{
+					instance_destroy();
+					obj_jogador.weapon_cooldown[4] = 2;
+				}
 			
 			if(_list[| i].boss_hp <= 0)
 			{
@@ -72,6 +87,9 @@ if _num > 0
 		}
 	}
 }
+
+
+
 
 ds_list_destroy(_list);
 
