@@ -139,7 +139,6 @@ if !surface_exists(paused_surf) {
 	draw_set_halign(-1)
 	draw_set_font(-1)
 	draw_set_color(noone)
-    draw_set_alpha(-1);
     }
 	
 }

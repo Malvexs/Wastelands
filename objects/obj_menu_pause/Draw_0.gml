@@ -93,6 +93,5 @@ if !surface_exists(paused_surf) {
 		draw_set_halign(-1); //Resetando alinhamento horizontal
 		draw_set_font(-1); //Resetando a font
 		draw_set_color(c_white);//Resetando a cor
-		draw_set_alpha(-1);
 	}
 }
