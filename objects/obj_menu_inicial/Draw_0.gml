@@ -17,6 +17,8 @@ if !surface_exists(paused_surf) {
 		wgui = camera_get_view_x(view_camera[0]) + display_get_gui_width()/2
 		hgui = camera_get_view_y(view_camera[0]) + display_get_gui_height()/2
 		
+	    draw_sprite(sprite_index, image_index, wgui-1, hgui+1)
+		
 		draw_set_font(bitmap_font)
 		
 		msg = "Wastelands"

@@ -2,7 +2,10 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_menu_inicial",
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_bg_principal",
+    "path": "sprites/spr_bg_principal/spr_bg_principal.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,

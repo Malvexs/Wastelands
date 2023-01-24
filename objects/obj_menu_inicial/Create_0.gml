@@ -2,6 +2,9 @@
 paused = false; 
 paused_surf = -1; 
 
+//Black mask
+bg_width = 1125 //Largura da sprite
+bg_height = 745 //Altura da sprite
 
 map_string = " !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRS" +
 			 "TUVXYWZ[\\]^_`abcdefghijklmnopqrstuvwxyz(|)~"

@@ -24,6 +24,7 @@
     {"id":{"name":"spr_bg_menu_pause","path":"sprites/spr_bg_menu_pause/spr_bg_menu_pause.yy",},"order":8,},
     {"id":{"name":"obj_boss_3","path":"objects/obj_boss_3/obj_boss_3.yy",},"order":6,},
     {"id":{"name":"spr_projetillento_boss_2","path":"sprites/spr_projetillento_boss_2/spr_projetillento_boss_2.yy",},"order":0,},
+    {"id":{"name":"spr_bg_principal","path":"sprites/spr_bg_principal/spr_bg_principal.yy",},"order":16,},
     {"id":{"name":"obj_menu_loja","path":"objects/obj_menu_loja/obj_menu_loja.yy",},"order":0,},
     {"id":{"name":"spr_seta","path":"sprites/spr_seta/spr_seta.yy",},"order":12,},
     {"id":{"name":"spr_boss_life_hud","path":"sprites/spr_boss_life_hud/spr_boss_life_hud.yy",},"order":9,},
@@ -59,6 +60,7 @@
     {"id":{"name":"spr_atk3","path":"sprites/spr_atk3/spr_atk3.yy",},"order":1,},
     {"id":{"name":"tile_bkg_1","path":"tilesets/tile_bkg_1/tile_bkg_1.yy",},"order":0,},
     {"id":{"name":"obj_spell_boss1","path":"objects/obj_spell_boss1/obj_spell_boss1.yy",},"order":12,},
+    {"id":{"name":"spr_arvore","path":"sprites/spr_arvore/spr_arvore.yy",},"order":17,},
     {"id":{"name":"obj_menu_inicial","path":"objects/obj_menu_inicial/obj_menu_inicial.yy",},"order":4,},
     {"id":{"name":"tile_collision","path":"tilesets/tile_collision/tile_collision.yy",},"order":2,},
     {"id":{"name":"spr_torre_1","path":"sprites/spr_torre_1/spr_torre_1.yy",},"order":16,},
@@ -175,6 +177,6 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2022.11.1.56",
+    "IDEVersion": "2022.0.0.19",
   },
 }
