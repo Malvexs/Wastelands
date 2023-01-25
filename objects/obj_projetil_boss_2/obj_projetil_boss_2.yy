@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_projetil_boss_2",
   "spriteId": {
-    "name": "spr_projetil_boss_2",
-    "path": "sprites/spr_projetil_boss_2/spr_projetil_boss_2.yy",
+    "name": "spr_xp",
+    "path": "sprites/spr_xp/spr_xp.yy",
   },
   "solid": false,
   "visible": true,

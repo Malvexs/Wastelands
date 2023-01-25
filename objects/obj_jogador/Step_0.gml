@@ -12,20 +12,13 @@ var right = (keyboard_check(vk_right) || keyboard_check(ord("D")));
 var up = (keyboard_check(vk_up) || keyboard_check(ord("W")));
 var down = (keyboard_check(vk_down ) ||  keyboard_check(ord("S")));
 
-if(left = true){
+if (down = true) or (up = true) or (right = true) or (left = true){
 	boost_walk = walkspeed*lvl*0.05
-}
-else if (right = true){
-	boost_walk = walkspeed*lvl*0.05
-}
-else if (up = true){
-	boost_walk = walkspeed*lvl*0.05
-}
-else if (down = true){
-	boost_walk = walkspeed*lvl*0.05
+	sprite_index = spr_jogador_movimento
 }
 else{
 	boost_walk = 0;
+	sprite_index = spr_jogador_parado
 }
 
 var horizontal = (right - left)

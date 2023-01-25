@@ -1,6 +1,8 @@
 ///@descr Intervaloatks bola de fogo
 if (global.powers[0][3] > 0){ //Se a flag tiver ativa o poder é acionado
 
+	audio_play_sound(snd_fireball, 1, false);
+	
 	alarmtime[2] = 150;
 
 	//switch para controlar os atributos dos poderes a depender do nivel

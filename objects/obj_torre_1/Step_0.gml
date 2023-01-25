@@ -19,3 +19,5 @@ else
 {
 	esta_perto = false;
 }
+
+depth =	-y;

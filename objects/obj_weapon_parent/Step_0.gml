@@ -120,7 +120,7 @@ if (_num > 0) && (obj_jogador.weapon_cooldown[4] > 0)
 				//destruir entidade
 				instance_destroy(_list[| i]);
 				//Spawnando boss após a torre ser destuída
-				instance_create_layer(x,y,"Instances",obj_boss);
+				instance_create_layer(x,y,"Instances",obj_boss_3);
 			}
 		}
 	}

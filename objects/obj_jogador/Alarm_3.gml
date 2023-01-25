@@ -1,6 +1,8 @@
 /// @description Intervalo atks da Faca
 if(global.powers[2][3] > 0){ //Se a flag tiver ativa o poder é acionado
 	
+	audio_play_sound(snd_knife, 1, false);
+	
 	alarmtime[3] = 150;
 	
 	//switch para controlar os atributos dos poderes a depender do nivel

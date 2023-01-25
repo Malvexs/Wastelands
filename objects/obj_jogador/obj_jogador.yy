@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_jogador",
   "spriteId": {
-    "name": "spr_jogador",
-    "path": "sprites/spr_jogador/spr_jogador.yy",
+    "name": "spr_jogador_parado",
+    "path": "sprites/spr_jogador_parado/spr_jogador_parado.yy",
   },
   "solid": false,
   "visible": true,
