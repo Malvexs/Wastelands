@@ -29,7 +29,10 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_transicao",
+    "path": "sprites/spr_transicao/spr_transicao.yy",
+  },
   "spriteMaskId": null,
   "visible": true,
 }

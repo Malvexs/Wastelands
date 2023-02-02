@@ -15,8 +15,20 @@ maxHp = 40;
 
 globalvar hp; //Vida do personagem principal
 hp = 40
+//Indicador das fases
+globalvar Fase01;
+Fase01 = false;
+if (room_get_name(room) == "Fase_01"){Fase01 = true}
 
-global.loja_compras_finalizadas = 0
+globalvar Fase02;
+Fase02 = false;
+if (room_get_name(room) == "Mapa2"){Fase02 = true}
+
+globalvar Fase03;
+Fase03 = false;
+if(room_get_name(room) == "Mapa3"){Fase03 = true}
+
+global.loja_compras_finalizadas = 0;
 
 timer_xp = 20;
 alarm[0] = timer_xp;

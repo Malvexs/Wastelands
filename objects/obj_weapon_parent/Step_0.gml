@@ -85,7 +85,7 @@ if (_num > 0) && (obj_jogador.weapon_cooldown[4] > 0)
 				//Dropando xp na layer do menu quando o personagem morre				
 				if (room_next(room) != -1)
 				{
-					room_goto_next();
+					instance_create_layer(0,0,"Instances",obj_transicao)
 				}
 			}
 		}
