@@ -142,6 +142,7 @@
     {"name":"spr_boss_2","order":6,"path":"sprites/spr_boss_2/spr_boss_2.yy",},
     {"name":"obj_boss_2","order":5,"path":"objects/obj_boss_2/obj_boss_2.yy",},
     {"name":"spr_enemy_09","order":17,"path":"sprites/spr_enemy_09/spr_enemy_09.yy",},
+    {"name":"spr_wastelands","order":21,"path":"sprites/spr_wastelands/spr_wastelands.yy",},
     {"name":"spr_bkg_1","order":14,"path":"sprites/spr_bkg_1/spr_bkg_1.yy",},
     {"name":"obj_boss","order":3,"path":"objects/obj_boss/obj_boss.yy",},
     {"name":"spr_torre_3","order":26,"path":"sprites/spr_torre_3/spr_torre_3.yy",},
@@ -175,6 +176,7 @@
     {"name":"spr_melee_boss","order":2,"path":"sprites/spr_melee_boss/spr_melee_boss.yy",},
     {"name":"obj_inventario","order":2,"path":"objects/obj_inventario/obj_inventario.yy",},
     {"name":"spr_spell_boss1","order":18,"path":"sprites/spr_spell_boss1/spr_spell_boss1.yy",},
+    {"name":"spr_miniWastlands","order":20,"path":"sprites/spr_miniWastlands/spr_miniWastlands.yy",},
     {"name":"obj_enemy_02","order":1,"path":"objects/obj_enemy_02/obj_enemy_02.yy",},
   ],
 }

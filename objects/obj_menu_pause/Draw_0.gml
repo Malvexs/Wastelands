@@ -33,7 +33,7 @@ if !surface_exists(paused_surf) {
 		
 		//Desenhando o background do menu
 		draw_sprite_ext(sprite_index, image_index, wgui-200, hgui-225,menu_width/sprite_width, menu_height/sprite_height, 0, c_white,1)
-	
+	    draw_sprite(spr_miniWastlands,1,wgui+5, hgui-77)
 		for(var i = 0; i < op_max; i++){
 			index = i;
 			//Desenhando o background das opções

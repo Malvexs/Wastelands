@@ -29,7 +29,7 @@ if !surface_exists(paused_surf) {
 				room_goto_next();
 			}else if(current_time > ms_agora+5133){
 				draw_sprite_ext(sprite_index, 93,wgui, hgui+2, blck_width/sprite_width, blck_height/sprite_height, 0, c_white,1)
-				draw_text_transformed(wgui, hgui + 2 , "Próxima Fase...", 1.5,1.5,image_angle)
+				draw_text_transformed(wgui, hgui + 2 , "Próxima Fase...", 1.5,1.5,image_angle)	
 			}else if(current_time > ms_agora+4133){
 				draw_sprite_ext(sprite_index, 93,wgui, hgui+2, blck_width/sprite_width, blck_height/sprite_height, 0, c_white,1)
 				draw_text_transformed(wgui, hgui + 2 , "Próxima Fase..", 1.5,1.5,image_angle)
@@ -63,3 +63,6 @@ if !surface_exists(paused_surf) {
 		draw_set_font(-1); 
 	}
 }
+
+
+
