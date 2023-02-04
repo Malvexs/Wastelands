@@ -3,13 +3,11 @@
 var _list = ds_list_create(); //criar lista
 var _num = collision_rectangle_list(bbox_left, bbox_top, bbox_right, bbox_bottom, obj_enemy_parent, false, true, _list, false); //criar retangulo de colisão
 
-if (_num > 0) && (obj_jogador.weapon_cooldown[4] > 0)
-{
+if (_num > 0) && (obj_jogador.weapon_cooldown[4] > 0){
 	
-    for (var i = 0; i < _num; ++i;)
-    {
-		if(_list[| i].sprite_index == _list[| i].spr)
-		{
+    for (var i = 0; i < _num; ++i;){
+		
+		if(_list[| i].sprite_index == _list[| i].spr){
 	
 			//knockback							
 			var dir = point_direction(x,y, _list[| i].x, _list[| i].y);
@@ -31,8 +29,8 @@ if (_num > 0) && (obj_jogador.weapon_cooldown[4] > 0)
 				}
 			
 				
-			if(_list[| i].inimigo_hp <= 0)
-			{
+			if(_list[| i].inimigo_hp <= 0){
+				inimigoMorto = true;
 				//destruir entidade
 				instance_destroy(_list[| i]);
 				//Dropando xp na layer do menu quando o personagem morre
@@ -78,14 +76,14 @@ if (_num > 0) && (obj_jogador.weapon_cooldown[4] > 0)
 					obj_jogador.weapon_cooldown[4] = obj_jogador.cooldown;
 				}
 			
-			if(_list[| i].boss_hp <= 0)
-			{
+			if(_list[| i].boss_hp <= 0){
+				inimigoMorto = true;
 				//destruir entidade
 				instance_destroy(_list[| i]);
 				//Dropando xp na layer do menu quando o personagem morre				
 				if (room_next(room) != -1)
 				{
-					room_goto_next();
+					instance_create_layer(0,0,"Instances",obj_transicao)
 				}
 			}
 		}

@@ -1,7 +1,8 @@
 /// @description Intervalo raio
 
 if(global.powers[6][3] > 0){ //Se a flag tiver ativa o poder é acionado
-		
+	
+	audio_play_sound_on(sfxe, snd_thunder, 0, 0, 1, 0, random_range(1.5,2));	
 	alarmtime[7] = 300;
 	
 	//switch para controlar os atributos dos poderes a depender do nivel

@@ -2,7 +2,7 @@
 
 //verificar a fase para spawnar o boss e a torre referente à ela
 
-if room_get_name(room) == "Fase_01"
+if Fase01
 {
 	global.boss_check = obj_boss;
 	global.torre_check = obj_torre_1;
@@ -15,13 +15,13 @@ if room_get_name(room) == "Fase_01"
 		instance_create_layer(obj_jogador.x,obj_jogador.y, "Instances", obj_control_enemy)
 	}
 }	
-else if room_get_name(room) == "Mapa2"
+else if Fase02
 {
 	global.boss_check = obj_boss_2;
 	global.torre_check = obj_torre_2;
 	global.inimigo_check1 = obj_enemy_04
-	global.inimigo_check2 = obj_enemy_02
-	global.inimigo_check3 = obj_enemy_03
+	global.inimigo_check2 = obj_enemy_05
+	global.inimigo_check3 = obj_enemy_06
 	
 	if !instance_exists(obj_control_enemy) && (obj_timer.timer <= 0.2)
 	{
@@ -29,13 +29,13 @@ else if room_get_name(room) == "Mapa2"
 	}
 	
 }
-else if room_get_name(room) == "Mapa3"
+else if Fase03
 {
 	global.boss_check = obj_boss_3;
 	global.torre_check = obj_torre_3;
-	global.inimigo_check1 = obj_enemy_01
-	global.inimigo_check2 = obj_enemy_02
-	global.inimigo_check3 = obj_enemy_03
+	global.inimigo_check1 = obj_enemy_07
+	global.inimigo_check2 = obj_enemy_08
+	global.inimigo_check3 = obj_enemy_09
 	
 	if !instance_exists(obj_control_enemy) && (obj_timer.timer <= 0.2)
 	{
@@ -78,7 +78,6 @@ if keyboard_check_released(vk_control) && keyboard_check_released(vk_alt)
 	instance_destroy(obj_boss_parent);	
 	if (room_next(room) != -1)
 	{
-
 		instance_create_layer(0,0,"Instances",obj_transicao)
 	}
 }

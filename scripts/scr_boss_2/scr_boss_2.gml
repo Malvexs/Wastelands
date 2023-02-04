@@ -5,15 +5,18 @@ function scr_boss_escolher_ataque() //funcão para alternar entre 2 ataques por 
 	{		
 		var _ataque = choose(scr_boss_ataque_1, scr_boss_ataque_2); //escolhe aleatoriamente um atk
 		estado = _ataque; //muda estado para ataque
-		alarm[1] = 180;
+		alarm[1] = 30;
 	}
 
 }
 
 function scr_boss_ataque_1() //funcao do primeiro atk
-{
-	
+{	
 	//atacar em diferentes direções
+	
+	obj_boss_parent.speed = 0;
+	sprite_index = spr_boss_2idle;
+	obj_boss_parent.spr = spr_boss_2idle;
 	
 	if ataque_boss mod 2 == 1 //se for impar variavel de direção recebe um valor
 	{
@@ -38,13 +41,16 @@ function scr_boss_ataque_1() //funcao do primeiro atk
 				}
 			
 				ataque_boss -= 1; //decresce um na variável
-				alarm[1] = 30; //acrescenta um cooldown
+				alarm[1] = 300; //acrescenta um cooldown
 			}	
 		}
 		else
 		{
 			estado = scr_boss_escolher_ataque; //volta para estado de escolher atk quando
 			ataque_boss = 3; //variavel volta para o seu valor inical de repetição
+			obj_boss_parent.speed = obj_boss_parent.velocidade_boss;
+			sprite_index = spr_boss_2;
+			obj_boss_parent.spr = spr_boss_2;
 		}
 }
 
@@ -52,6 +58,11 @@ function scr_boss_ataque_1() //funcao do primeiro atk
 
 function scr_boss_ataque_2()
 {
+	
+	obj_boss_parent.speed = 0;
+	sprite_index = spr_boss_2idle;
+	obj_boss_parent.spr = spr_boss_2idle;
+	
 	if ataque2_boss mod 2 == 1
 	{
 		var _dir = 0;
@@ -60,7 +71,7 @@ function scr_boss_ataque_2()
 	{
 		var _dir = 22.5;
 	}
-		
+
 		if ataque2_boss > 0
 		{
 			if alarm[1] <= 0
@@ -72,16 +83,18 @@ function scr_boss_ataque_2()
 					_inst.direction = _dir;
 		
 					_dir += 45;
-		
 				}
 		
 				ataque2_boss -= 1;
-				alarm[1] = 30;
+				alarm[1] = 300;
 			}	
 		}
 		else
 		{
 			estado = scr_boss_escolher_ataque;
 			ataque2_boss = 2;
+			obj_boss_parent.speed = obj_boss_parent.velocidade_boss;
+			sprite_index = spr_boss_2;
+			obj_boss_parent.spr = spr_boss_2;
 		}
 }

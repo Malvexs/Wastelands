@@ -33,7 +33,7 @@ if !surface_exists(paused_surf) {
 		
 		//Desenhando o background do menu
 		draw_sprite_ext(sprite_index, image_index, wgui-200, hgui-225,menu_width/sprite_width, menu_height/sprite_height, 0, c_white,1)
-	
+	    draw_sprite(spr_miniWastlands,1,wgui+5, hgui-77)
 		for(var i = 0; i < op_max; i++){
 			index = i;
 			//Desenhando o background das opções
@@ -51,10 +51,12 @@ if !surface_exists(paused_surf) {
 			
 			if(point_in_rectangle(mx, my, x1, y1, x2, y2)){
 				
-				//Desenhando o indicador de selencionado (Esquerda)
-				draw_sprite_ext(spr_selecionado, 0,wgui-140,hgui+80 + bg_opcao_space*i, selecionado_width/sprite_width, selecionado_height/sprite_height, 0, c_white,1)
-				//Desenhando o indicador de selencionado (Esquerda)
-				draw_sprite_ext(spr_selecionado, 0,wgui+155,hgui+80 + bg_opcao_space*i, selecionado_width/sprite_width, selecionado_height/sprite_height, 0, c_white,1) 
+				//Desenhando a seta (esquerda) apontada pro item selecionado
+				draw_sprite_ext(spr_seta, image_index,wgui-115,hgui+68 + bg_opcao_space*i, selecionado_width/sprite_width, selecionado_height/sprite_height, 0, c_white,1)
+				//draw_sprite_ext(spr_selecionado, 0,wgui-140,hgui+80 + bg_opcao_space*i, selecionado_width/sprite_width, selecionado_height/sprite_height, 0, c_white,1)
+				//Desenhando a seta (direita) apontada pro item selecionado
+				draw_sprite_ext(spr_seta, image_index,wgui+130,hgui+94 + bg_opcao_space*i, selecionado_width/sprite_width, selecionado_height/sprite_height, 180, c_white,1)
+				//draw_sprite_ext(spr_selecionado, 0,wgui+155,hgui+80 + bg_opcao_space*i, selecionado_width/sprite_width, selecionado_height/sprite_height, 0, c_white,1) 
 			
 				if(mouse_check_button(mb_left)){
 					//Segunda opção
@@ -68,7 +70,7 @@ if !surface_exists(paused_surf) {
 					}
 					//Terceira opção (fecha o jogo direto, mas na verdade era pra ir pra "página inicial" do jogo)
 					if(index == 2){
-						game_end();
+						game_restart();
 					}
 				}	
 				

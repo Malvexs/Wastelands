@@ -1,7 +1,7 @@
 ///@description Intervalo atks machado
 if(global.powers[1][3] > 0){ //Se a flag tiver ativa o poder é acionado
 
-	audio_play_sound_on(sfxe, snd_axe, 0, false);
+	audio_play_sound_on(sfxe, snd_axe, 0, 0);
 	
 	alarmtime[1] = 170;	
 
