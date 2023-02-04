@@ -100,3 +100,6 @@ _reverb.mix = 0.2;
 sfx_ebus.effects[0] = _reverb;
 #endregion
 
+//diametro da coleta da fruta
+f_collect_range = 32
+
