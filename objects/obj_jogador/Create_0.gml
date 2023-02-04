@@ -8,6 +8,8 @@ walkspeed = 2;
 //variaveis para a colisão com o mapa
 gotCollision = false;
 
+globalvar maxLevel;  //Váriavel para controle do nível máximo que 36 até o momento
+maxLevel = false; //maxLevel começa como false
 
 #region intervalo dos atks
 //intervalo dos atks

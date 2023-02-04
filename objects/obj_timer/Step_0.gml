@@ -10,7 +10,7 @@ else timer = 0
 	time = ceil(timer)	
 }
 
-if (timer >= 300) && !instance_exists(global.torre_check) && !instance_exists(global.boss_check)//spawna a torre após um tempo
+if (timer >= 10) && !instance_exists(global.torre_check) && !instance_exists(global.boss_check)//spawna a torre após um tempo
 {
 	instance_create_layer(obj_torre_life.x,obj_torre_life.y,"Instances", global.torre_check)
 }
