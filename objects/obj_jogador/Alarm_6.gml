@@ -1,7 +1,7 @@
 /// @description Intervalo orbe
 
 if(global.powers[5][3] > 0){ //Se a flag tiver ativa o poder é acionado
-		
+	
 	alarmtime[6] = 240;
 	
 	//switch para controlar os atributos dos poderes a depender do nivel

@@ -38,7 +38,7 @@ if alarm[1]<=0{
 }
 //spawn inimigo 3
 
-if (obj_timer.timer > 120){
+if (obj_timer.timer > 180){
 var _side=irandom(1)
 if alarm[2]<=0{
 	if _side=0{

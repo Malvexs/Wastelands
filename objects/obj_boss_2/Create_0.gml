@@ -10,5 +10,5 @@ boss_hp = 250; //quando alterado, é preciso tambem alterar no obj_boss_life
 spr = spr_boss_2; 
 sprW = spr_boss_2w;
 
-
+velocidade_boss = 0.15;
 

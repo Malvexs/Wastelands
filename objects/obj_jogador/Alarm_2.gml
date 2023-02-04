@@ -1,7 +1,7 @@
 ///@descr Intervaloatks bola de fogo
 if (global.powers[0][3] > 0){ //Se a flag tiver ativa o poder é acionado
 
-	audio_play_sound_on(sfxe, snd_fireball, 0, false);
+	audio_play_sound_on(sfxe, snd_fireball, 0, 0);
 	
 	alarmtime[2] = 220;
 
