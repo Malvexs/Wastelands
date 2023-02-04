@@ -22,4 +22,14 @@ if hp<=0{ //Se a vida for menor ou igual a 0 game over
 	//hp = 0
 	hp += 40;
 }
-
+if(room == 2){
+	cor = c_white;
+	global.indexPeloRoom = 1;
+}else{
+    cor = c_black;
+	global.indexPeloRoom = 0;
+}
+if(inimigoMorto){
+  numeroDeMortos += 1;
+  inimigoMorto = false;
+}
