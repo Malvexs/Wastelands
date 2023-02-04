@@ -43,7 +43,7 @@
     {"name":"snd_lvl_2_1","order":7,"path":"sounds/snd_lvl_2_1/snd_lvl_2_1.yy",},
     {"name":"obj_torre_1","order":9,"path":"objects/obj_torre_1/obj_torre_1.yy",},
     {"name":"obj_weapon_fireball","order":1,"path":"objects/obj_weapon_fireball/obj_weapon_fireball.yy",},
-    {"name":"spr_selecionado","order":9,"path":"sprites/spr_selecionado/spr_selecionado.yy",},
+    {"name":"spr_caveira","order":9,"path":"sprites/spr_caveira/spr_caveira.yy",},
     {"name":"spr_water","order":28,"path":"sprites/spr_water/spr_water.yy",},
     {"name":"spr_floor_mapa3","order":25,"path":"sprites/spr_floor_mapa3/spr_floor_mapa3.yy",},
     {"name":"obj_boss_parent","order":4,"path":"objects/obj_boss_parent/obj_boss_parent.yy",},

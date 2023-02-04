@@ -29,7 +29,7 @@ if !surface_exists(paused_surf) {
 	msg = "Suba de nível" //Desenha o título do menu
 	draw_text_transformed(wgui-75, hgui-175, msg, 1.5,1.5,image_angle)
     
-	draw_sprite_ext(spr_xp_hud, image_index, wgui-550, hgui-367, 8.6, 0.8, 0, c_white,1)//desenha a hud do xp
+	draw_sprite_ext(spr_xp_hud, global.indexPeloRoom, wgui-550, hgui-367, 8.6, 0.8, 0, c_white,1)//desenha a hud do xp
 	draw_sprite_ext(spr_xp_hud_full, 0, wgui-547, hgui-363.5, 8.97, 0.8, 0, c_white,1)//desenhando a hud do xp inteiro
 	
 	
