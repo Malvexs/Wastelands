@@ -3,6 +3,8 @@
 
 if(global.powers[4][3] > 0){ //Se a flag tiver ativa o poder é acionado
 	
+	audio_play_sound_on(sfxe, snd_magia, 0, 0, 1, 0, random_range(0.6,1.2));
+	
 	alarmtime[5] = 120;	
 
 	//switch para controlar os atributos dos poderes a depender do nivel

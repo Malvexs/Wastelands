@@ -83,7 +83,7 @@ if !surface_exists(paused_surf) {
 				  instance_activate_all();
 				  surface_free(paused_surf);
 				  paused_surf = -1;
-				  //efeito fade-out para mutar a música
+				  //efeito fade-out antes de mutar música
 				  audio_sound_gain(snd_lvl_0, 0, 1500);
 				  alarm[0] = 120;
 			   }
