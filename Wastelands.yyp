@@ -66,7 +66,6 @@
     {"id":{"name":"obj_torre_1","path":"objects/obj_torre_1/obj_torre_1.yy",},"order":9,},
     {"id":{"name":"obj_weapon_fireball","path":"objects/obj_weapon_fireball/obj_weapon_fireball.yy",},"order":1,},
     {"id":{"name":"spr_chest","path":"sprites/spr_chest/spr_chest.yy",},"order":0,},
-    {"id":{"name":"spr_selecionado","path":"sprites/spr_selecionado/spr_selecionado.yy",},"order":9,},
     {"id":{"name":"spr_caveira","path":"sprites/spr_caveira/spr_caveira.yy",},"order":0,},
     {"id":{"name":"spr_water","path":"sprites/spr_water/spr_water.yy",},"order":28,},
     {"id":{"name":"spr_floor_mapa3","path":"sprites/spr_floor_mapa3/spr_floor_mapa3.yy",},"order":25,},
