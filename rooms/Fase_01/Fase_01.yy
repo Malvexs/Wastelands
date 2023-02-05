@@ -20,6 +20,7 @@
     {"name":"inst_13176688","path":"rooms/Fase_01/Fase_01.yy",},
     {"name":"inst_20D35950","path":"rooms/Fase_01/Fase_01.yy",},
     {"name":"inst_1CEBD96B","path":"rooms/Fase_01/Fase_01.yy",},
+    {"name":"inst_239828B3","path":"rooms/Fase_01/Fase_01.yy",},
   ],
   "isDnd": false,
   "layers": [

@@ -1,2 +1,2 @@
 /// @description Insert description here
-hp_chest = 20
+hp_chest = 10
