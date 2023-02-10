@@ -1,3 +1,7 @@
+//Controlando se o jogo está pausado ou não
+aberto = false; 
+
+paused_surf = -1; 
 //Backgroud menu
 menu_width = 414 //Largura do menu
 menu_height = 470 //Altura do menu

@@ -88,3 +88,4 @@ if keyboard_check_released(vk_space)
 	obj_timer.timer += 60;
 }
 
+
